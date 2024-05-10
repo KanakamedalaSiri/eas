@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_e97395c729e7404196eb128b3eadc66c": {
+        "id": "AS_FlexContainer_e97395c729e7404196eb128b3eadc66c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTouchEnd_f0a9d974530e4aed9d9e35e5696e2e99",
+            "type": "INVOKE_FUNCTION",
+            "display": "onClickOfBackBtn",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

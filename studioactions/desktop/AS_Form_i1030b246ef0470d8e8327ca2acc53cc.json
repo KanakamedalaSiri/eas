@@ -1,0 +1,34 @@
+{
+    "AS_Form_i1030b246ef0470d8e8327ca2acc53cc": {
+        "id": "AS_Form_i1030b246ef0470d8e8327ca2acc53cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplashScreen",
+            "type": "forms",
+            "platform": null,
+            "KUID": "if60ef71a9a942b1b4bf32a0c1fff68e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h01e39aec21249edb4573e99d3ae9dba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.attachToModule(authModule);\nvar config = applicationManager.getConfigManager();\nif(config.platformName === \"desktop\"){\n  screenHeight= voltmx.os.deviceInfo().screenHeight;\n}\nelse{\n  screenHeight= Math.max(voltmx.os.deviceInfo().screenHeight ,voltmx.os.deviceInfo().screenWidth);\n}",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___h934033a2e73447b856e086bc670056d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShow",
+            "display": "preShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

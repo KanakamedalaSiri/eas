@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6.40%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "EMAIL",
+    "_skin_": "sf14fd220cd649d08ab043655e17e573",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "84.30%"
+    },
+    "android": {
+        "centerY": {
+            "type": "string",
+            "value": "44%"
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "41%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "focusskin": "sf14fd220cd649d08ab043655e17e573",
+    "id": "txtBoxEmail",
+    "ide_onDone": "AS_TextField_e33591f49201426487186649bd5bf352",
+    "info": null,
+    "iphone": {
+        "centerY": {
+            "type": "string",
+            "value": "34%"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "d45b6b18744942dda149f828a68662f5",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxForgotPassword",
+    "pf": "frmForgotPassword",
+    "placeholderskin": "sb5c2a79424944778bad9a64aadf0650",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

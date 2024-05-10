@@ -1,0 +1,20 @@
+{
+    "AS_Button_f4d33e7b131c496298575f1ecc56bc09": {
+        "id": "AS_Button_f4d33e7b131c496298575f1ecc56bc09",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ef584a04c72545b9a07fc18a1e3c8d32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onClickOfWebAppLaunch\", [context ,\"Right\"]);",
+            "callbackType": null
+        }]
+    }
+}

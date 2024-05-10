@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_b83f8489c9844d4ea381794225f1c427": {
+        "id": "AS_FlexContainer_b83f8489c9844d4ea381794225f1c427",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStore",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8ce9a91358e4f72a7039b33ed9ae361"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ac879be7c34448d0aec0464eccb81f85",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHelpScreen",
+            "friendlyName": "frmHelpScreen",
+            "formKUID": "f4e785b8e78b40ad9c8b74f19fb7c885",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "StoreModule",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_c6d41054fb684d1586b49d84dbda58e1": {
+        "id": "AS_AppEvents_c6d41054fb684d1586b49d84dbda58e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d6032169e5b548c48a67761c8345a275",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(eventobject && eventobject.launchmode == 3){\n  //#ifdef ipad\n  voltmx.store.setItem(\"disablefrmLoginPreShow\", false);\n  //#endif\n  handleDeeplinkCallback(eventobject);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7259aad38874ea79367b1b67a6f2cdc",
+    "_text_": "SUBMIT",
+    "_width_": {
+        "type": "string",
+        "value": "84.30%"
+    },
+    "android": {
+        "centerY": {
+            "type": "string",
+            "value": "55%"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "51%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7259aad38874ea79367b1b67a6f2cdc",
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_ie3ce877c981404f8ad5a68d2ac2238a",
+    "info": null,
+    "iphone": {
+        "centerY": {
+            "type": "string",
+            "value": "46%"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j690d669c1e34f1bac0a2eb0225e2093",
+    "name": "kony.ui.Button",
+    "parent": "flxForgotPassword",
+    "pf": "frmForgotPassword",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

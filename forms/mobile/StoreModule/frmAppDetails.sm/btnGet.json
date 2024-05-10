@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s85b37d782294dd28d0d3e5e8de7997e",
+    "_text_": "GET",
+    "_top_": {
+        "type": "string",
+        "value": "11.20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25.50%"
+    },
+    "android": {
+        "height": {
+            "type": "string",
+            "value": "23%"
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "se5e17cbc81a41dd9674122e5b0c862a",
+    "id": "btnGet",
+    "ide_onClick": "AS_Button_c4a0ee5e3bf043dab794651646f38a3a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "edf194235dce40cb9762380f98f65639",
+    "name": "kony.ui.Button",
+    "parent": "flxAppDetails",
+    "pf": "frmAppDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 10
+}

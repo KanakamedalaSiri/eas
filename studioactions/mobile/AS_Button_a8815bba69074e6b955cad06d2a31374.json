@@ -1,0 +1,27 @@
+{
+    "AS_Button_a8815bba69074e6b955cad06d2a31374": {
+        "id": "AS_Button_a8815bba69074e6b955cad06d2a31374",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "fec9419aa62d4f329bd0cbf3cd2a6a41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e942b2c09cd84d3880845ec81b2d9de9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfLogout",
+            "display": "onClickOfLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "AS_Form_a54ced0dfe9241e3af28c398b6e9fc09": {
+        "id": "AS_Form_a54ced0dfe9241e3af28c398b6e9fc09",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForgotPassword",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h82540a3451e470389c018f436d3d3d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_jaa7ee1c20f24f3aa88fff43d9f076cc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.attachToModule(authModule);\nthis.view.flxForgotPassword.height = (screenHeight-55) +\"dp\";\nthis.view.flxEmailAlert.height = screenHeight+\"dp\";",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_f2cddb00e62f409e9ce7b50dcf3495b8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFormPreShow",
+            "display": "onFormPreShow",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Segment_c80d82aaa0344d43bb1bb0cb40a6ddb6": {
+        "id": "AS_Segment_c80d82aaa0344d43bb1bb0cb40a6ddb6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStore",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8ce9a91358e4f72a7039b33ed9ae361"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d86646320d6148dc8d35ffc6bf774b3e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onPullToRefresh",
+            "display": "onPullToRefresh",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

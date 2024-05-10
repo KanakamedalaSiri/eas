@@ -1,0 +1,32 @@
+{
+    "AS_Form_dec69c2358774ce5962f153d6c07d1e8": {
+        "id": "AS_Form_dec69c2358774ce5962f153d6c07d1e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b47a9a93125649959cab819a9e1ff11a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_c12d1c73bcad495182d6b28f105c825e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.view.flxMain.height = screenHeight +\"dp\";\nthis.attachToModule(authModule);",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_e215506e93764333a10ba557d8aa83d7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShow",
+            "display": "preShow",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

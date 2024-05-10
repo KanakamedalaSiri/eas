@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "sed33380aee64c5c8d72c18c1ba56c18",
+    "_text_": "Your app certificate needs to be trusted before it can be used on your phone. Please trust the certificate from the Settings section in your device.\n\n1. Go to device <b>Settings > General > Profiles</b> or <b>Profiles & Device Management.</b>\n2. Under the <b>“Enterprise App”</b> heading, choose the profile for the developer of the app you are trying to install.\n3. Tap the profile and choose to <b>Trust the profile.</b> \n\nThis profile will remain trusted until you remove all apps using this profile.\n",
+    "_top_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtHelpBox",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f6aa161a34a240e385194c1c5773b0f7",
+    "linkskin": "sc5e71500db2489c9996693b46ec6715",
+    "name": "kony.ui.RichText",
+    "parent": "flxHelpBox",
+    "pf": "frmStore",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 2
+}

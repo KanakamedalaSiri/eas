@@ -1,0 +1,24 @@
+{
+    "AS_Form_bae3e860b66a48cb88159ad42f72f708": {
+        "id": "AS_Form_bae3e860b66a48cb88159ad42f72f708",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplashScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d96849c781804668a1079a7fd42ae93e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e51b6e93bd6949cf939e1d4c43ea694f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print(\"on device back\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

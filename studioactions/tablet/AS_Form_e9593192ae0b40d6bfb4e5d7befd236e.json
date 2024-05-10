@@ -1,0 +1,24 @@
+{
+    "AS_Form_e9593192ae0b40d6bfb4e5d7befd236e": {
+        "id": "AS_Form_e9593192ae0b40d6bfb4e5d7befd236e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplashScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f6e36a10cb6f48b7a7e8359a6f2324b8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bda44d4f91c04b6fb6697915e93e4539",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var CommonUtilsManager = applicationManager.getCommonUtilsManagerPresenter();\nCommonUtilsManager.presentationController.setEASAppCallBacks();\nrefreshAppFlag = true;\nisPullToRefresh = false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

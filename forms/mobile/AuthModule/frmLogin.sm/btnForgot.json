@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_skin_": "s02d8747008f4d05a18944aac8d1acca",
+    "_text_": "Forgot?",
+    "_top_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "android": {
+        "top": {
+            "type": "string",
+            "value": "57.50%"
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s02d8747008f4d05a18944aac8d1acca",
+    "id": "btnForgot",
+    "ide_onClick": "AS_Button_iae81fceb05445c3a09c4fc8e5bc4df4",
+    "info": null,
+    "iphone": {
+        "top": {
+            "type": "string",
+            "value": "58%"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jc124261bea34a839bb8cc745f4bfac1",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 2
+}

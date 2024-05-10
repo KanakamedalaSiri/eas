@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "29%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "7.40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "62dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3d11edfe0094c2b96b81dbaf842e845",
+    "_text_": "SIGN IN",
+    "_top_": {
+        "type": "string",
+        "value": "63.40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "84%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s4f5c00402d547f58959554c8a2d4d9f",
+    "id": "btnLogin",
+    "ide_onClick": "AS_Button_b61466e83da544de92b789ae4556f16b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cc1599c8172a4208885024e4c21b0a65",
+    "name": "kony.ui.Button",
+    "parent": "flxLogin",
+    "pf": "frmLogin",
+    "responsiveData": {
+        "b1": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "disabledSkins": {},
+            "focusSkin": "s3d11edfe0094c2b96b81dbaf842e845",
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        },
+        "b2": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": "62dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        },
+        "b3": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

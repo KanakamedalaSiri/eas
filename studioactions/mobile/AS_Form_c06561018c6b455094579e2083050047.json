@@ -1,0 +1,32 @@
+{
+    "AS_Form_c06561018c6b455094579e2083050047": {
+        "id": "AS_Form_c06561018c6b455094579e2083050047",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplashScreen",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d96849c781804668a1079a7fd42ae93e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_faa9999f75764253973642f135cb990c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.attachToModule(authModule);\nscreenHeight= Math.max(voltmx.os.deviceInfo().screenHeight ,voltmx.os.deviceInfo().screenWidth);",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_preShow_gd960c0dc63548b1a8924a008d10d32a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShow",
+            "display": "preShow",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

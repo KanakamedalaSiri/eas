@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_f2d31b75290d493aa4476132568461cf": {
+        "id": "AS_FlexContainer_f2d31b75290d493aa4476132568461cf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAppDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h600cc2068144a77871293be52005fb7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f3d17a0685f0412982aa39d13dd2afec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "PREV_FORM =\"\";",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_c1f851204b1b4a988ef092fb11b3bb7f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfLogout",
+            "display": "onClickOfLogout",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

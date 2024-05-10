@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_fa941076c64d4abaaa1f33a041a92621": {
+        "id": "AS_AppEvents_fa941076c64d4abaaa1f33a041a92621",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b3d8b672d79c4eb5952e14c3c483aef8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(eventobject.launchparams && eventobject.launchparams.formID ){\n if(eventobject.launchparams.formID.startsWith(\"frmAppDetails?id=\")){\n   PREV_FORM=curForm=\"frmAppDetails\";\n   var fabricApp = {};\n   fabricApp.System_ChannelId = applicationManager.getConfigManager().channel_id;\n   fabricApp.fabric_app_id = eventobject.launchparams.formID.split(\"=\")[1];\n   applicationManager.setItem(\"SELECTED_APP_DETAILS\", fabricApp);\n }\n else{\n  PREV_FORM = eventobject.launchparams.formID;\n }\n} ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_ca18dcae1b0a4c56a13a369283e8d6e8": {
+        "id": "AS_Form_ca18dcae1b0a4c56a13a369283e8d6e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAppDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h600cc2068144a77871293be52005fb7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_e99f23892be143c28e83a3b5bc2d9105",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var storeModule = applicationManager.getStoreModule();\nthis.attachToModule(storeModule);\n ",
+            "callbackType": null
+        }]
+    }
+}

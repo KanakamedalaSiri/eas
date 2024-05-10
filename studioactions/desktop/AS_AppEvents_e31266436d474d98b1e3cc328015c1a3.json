@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_e31266436d474d98b1e3cc328015c1a3": {
+        "id": "AS_AppEvents_e31266436d474d98b1e3cc328015c1a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__acdb0b575ffe4a75aba7c2a075fc00bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var appManager = require('ApplicationManager');\napplicationManager = appManager.getApplicationManager();\nauthModule = applicationManager.getAuthModule();\napplicationManager.getConfigManager().setPlatformID();\nPREV_FORM = \"\";\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_e66700b22ff443b59684fe043536492e": {
+        "id": "AS_AppEvents_e66700b22ff443b59684fe043536492e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hea2dd19433e462f8ba4c444ff0234e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n// console.log('eventObject: ' + eventobject);\n//if(eventobject.launchparams.formID == \"frmStore\"){\n//    var storeModule = applicationManager.getStoreModule();\n//    storeModule.presentationController.getEnterpriseAppsList();\n//    return \"frmStore\";\n//}\n// return eventobject.launchparams.formID;\nif(eventobject && eventobject.launchmode == 3){\n  //#ifdef iphone\n  voltmx.store.setItem(\"disablefrmLoginPreShow\", false);\n  //#endif\n  handleDeeplinkCallback(eventobject);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

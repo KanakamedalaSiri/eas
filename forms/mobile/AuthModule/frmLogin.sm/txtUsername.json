@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "50.20%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "6.40%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        6,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "USERNAME",
+    "_skin_": "s06213e14420404790039ac6dc55f841",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "84%"
+    },
+    "android": {
+        "top": {
+            "type": "string",
+            "value": "39.50%"
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "focusskin": "sf14fd220cd649d08ab043655e17e573",
+    "id": "txtUsername",
+    "info": null,
+    "iphone": {
+        "top": {
+            "type": "string",
+            "value": "40%"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "h4e24ecec4834d51bdc6358600be9b85",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxMain",
+    "pf": "frmLogin",
+    "placeholderskin": "sb5c2a79424944778bad9a64aadf0650",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

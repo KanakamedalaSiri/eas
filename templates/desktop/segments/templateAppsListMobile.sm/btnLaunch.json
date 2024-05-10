@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8dc7ba7651f4503a59dd8c0ca39bf33",
+    "_text_": "OPEN",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s8dc7ba7651f4503a59dd8c0ca39bf33",
+    "id": "btnLaunch",
+    "ide_onClick": "AS_Button_g82794d56f3447d19c6ea1b69317be2d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "a9c1cf9a80134486b83b7039f10e71b5",
+    "name": "kony.ui.Button",
+    "parent": "flxOptions",
+    "pf": "templateAppsListMobile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

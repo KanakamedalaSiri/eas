@@ -1,0 +1,14 @@
+
+{	
+	"UISupportedInterfaceOrientations": [
+        "UIInterfaceOrientationPortrait"
+	],
+	"encoding":{
+		"encodeNetAPI": true,
+		"encodeUrlForBrowser": true,
+		"encodeImageURL": true,
+		"encodeOpenURL": false,
+		"encodeRichTextURL": false
+	}
+}
+

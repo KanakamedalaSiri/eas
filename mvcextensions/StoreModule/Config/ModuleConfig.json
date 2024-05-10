@@ -1,0 +1,82 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "StoreModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmStore": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmStoreController",
+                "FormName": "StoreModule/frmStore",
+                "friendlyName": "frmStore"
+            },
+            "frmAppDetails": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmAppDetailsController",
+                "FormName": "StoreModule/frmAppDetails",
+                "friendlyName": "frmAppDetails"
+            },
+            "frmHelpScreen": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmHelpScreenController",
+                "FormName": "StoreModule/frmHelpScreen",
+                "friendlyName": "frmHelpScreen"
+            }
+        },
+        "mobile": {
+            "frmAppDetails": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmAppDetailsController",
+                "FormName": "StoreModule/frmAppDetails",
+                "friendlyName": "frmAppDetails"
+            },
+            "frmStore": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmStoreController",
+                "FormName": "StoreModule/frmStore",
+                "friendlyName": "frmStore"
+            },
+            "frmHelpScreen": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmHelpScreenController",
+                "FormName": "StoreModule/frmHelpScreen",
+                "friendlyName": "frmHelpScreen"
+            }
+        },
+        "tablet": {
+            "frmStore": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "StoreModule/frmStoreController",
+                "FormName": "StoreModule/frmStore",
+                "friendlyName": "frmStore"
+            }
+        }
+    },
+    "ModuleName": "StoreModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "StoreModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": []
+        },
+        "Mobile": {
+            "PresentationControllerClass": "StoreModule/PresentationControllers/PresentationController_Mobile",
+            "PresentationExtensions": []
+        },
+        "Tablet": {
+            "PresentationControllerClass": "StoreModule/PresentationControllers/PresentationController_Tablet",
+            "PresentationExtensions": []
+        },
+        "Desktop": {
+            "PresentationControllerClass": "StoreModule/PresentationControllers/PresentationController_Desktop",
+            "PresentationExtensions": []
+        }
+    }
+}

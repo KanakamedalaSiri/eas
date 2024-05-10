@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s042f0e1f3bd48bd8da95bd293d4f869",
+    "_src_": "details.png",
+    "_top_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "formID": "frmStore",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgScreenshot0",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "ipad": {
+        "height": {
+            "type": "string",
+            "value": "98.80%"
+        },
+        "width": {
+            "type": "string",
+            "value": "99%"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f316deb084bb4138b7f059a1db5e028d",
+    "name": "kony.ui.Image2",
+    "parent": "flxScreenshot0",
+    "pf": "frmStore",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

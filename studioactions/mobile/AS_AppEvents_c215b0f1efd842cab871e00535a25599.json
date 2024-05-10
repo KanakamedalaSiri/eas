@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_c215b0f1efd842cab871e00535a25599": {
+        "id": "AS_AppEvents_c215b0f1efd842cab871e00535a25599",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jc005d245ff244e38c5df0a3b02cebb0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var appManager = require('ApplicationManager');\napplicationManager = appManager.getApplicationManager();\nauthModule = applicationManager.getAuthModule();\nPREV_FORM= null;\nvoltmx.store.setItem(\"disablefrmLoginPreShow\", false);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

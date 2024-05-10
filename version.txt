@@ -1,0 +1,3 @@
+Marketplace version: 3.1.0
+Client App version: V9SP1GA
+Fabric App Version: 3.1.0

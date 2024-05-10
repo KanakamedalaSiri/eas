@@ -1,0 +1,21 @@
+{
+    "AS_Button_d79c18d8dbd94e3cbe55475584929c2a": {
+        "id": "AS_Button_d79c18d8dbd94e3cbe55475584929c2a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateApps",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d3e565caea1145818fdd55e00a115153"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

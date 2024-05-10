@@ -1,0 +1,40 @@
+{
+    "AS_TextField_cbfaed8b9cb24900b95f820bfd52e3af": {
+        "id": "AS_TextField_cbfaed8b9cb24900b95f820bfd52e3af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmForgotPassword",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fe40d90e2c5d4ce99f5b9c034f6663ac"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f805be68e25248869e8df10ccb0c8b16",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setFocusSkins",
+            "display": "setFocusSkins",
+            "inputparams": [{
+                "name": "widget",
+                "value": " eventobject"
+            }, {
+                "name": "focusSkin",
+                "value": "'sknTxtBxUsernameFocus'"
+            }, {
+                "name": "placeHolderSkin",
+                "value": "'sknTxtBxPlaceHolderNative'"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_skin_": "s8de024d6f4846b48a3c30c0cf495971",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1863885de684446a037e700170c7934",
+    "id": "BtnCrossHelpBox",
+    "ide_onClick": "AS_Button_h6e72c394f594dc9bfd8339e99e59023",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h6185702537a45c190f99fbadf5a6841",
+    "name": "kony.ui.Button",
+    "parent": "flxHelpBox",
+    "pf": "frmStore",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 2
+}

@@ -1,0 +1,27 @@
+{
+    "AS_Segment_f421b1910fc84c0ba3d5815bbfabf17d": {
+        "id": "AS_Segment_f421b1910fc84c0ba3d5815bbfabf17d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "h5674f99d8f24380a020dedffc3543fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ed993b65494c426da7e874aa11e1f0f0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "pullToRefresh",
+            "display": "pullToRefresh",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

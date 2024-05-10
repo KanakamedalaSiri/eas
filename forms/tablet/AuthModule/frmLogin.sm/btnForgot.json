@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "29.40%"
+    },
+    "_skin_": "s02d8747008f4d05a18944aac8d1acca",
+    "_text_": "Forgot?",
+    "_top_": {
+        "type": "string",
+        "value": "54.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s02d8747008f4d05a18944aac8d1acca",
+    "id": "btnForgot",
+    "ide_onClick": "AS_Button_f5e9f4fff2a74195b87a5e0762ddae7a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j010eb285a41430dbdc2c2231644744d",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

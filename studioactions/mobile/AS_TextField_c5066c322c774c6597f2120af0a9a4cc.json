@@ -1,0 +1,30 @@
+{
+    "AS_TextField_c5066c322c774c6597f2120af0a9a4cc": {
+        "id": "AS_TextField_c5066c322c774c6597f2120af0a9a4cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b47a9a93125649959cab819a9e1ff11a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onDone_eaf6d2d90a6642a8a3c6fd0bc7c83b2a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickbtnLogin",
+            "display": "onClickbtnLogin",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

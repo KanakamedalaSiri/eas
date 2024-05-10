@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_b700fee8c0c2406ba7eb9cb0c1199ca7": {
+        "id": "AS_FlexContainer_b700fee8c0c2406ba7eb9cb0c1199ca7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateApps",
+            "type": "templates",
+            "platform": "",
+            "KUID": "c9661415e5084137811f4686ab7da16c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a7fe575e407141cab975bf09bc13c116",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onRowClickOfSegAppsList\", 'Right');",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

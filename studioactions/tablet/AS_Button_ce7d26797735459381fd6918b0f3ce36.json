@@ -1,0 +1,28 @@
+{
+    "AS_Button_ce7d26797735459381fd6918b0f3ce36": {
+        "id": "AS_Button_ce7d26797735459381fd6918b0f3ce36",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForgotPassword",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fe40d90e2c5d4ce99f5b9c034f6663ac"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h9b7db0c3e2a426285993bcf63803cb6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfOkBtn",
+            "display": "onClickOfOkBtn",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

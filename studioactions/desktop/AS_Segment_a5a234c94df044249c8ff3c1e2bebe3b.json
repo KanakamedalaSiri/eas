@@ -1,0 +1,31 @@
+{
+    "AS_Segment_a5a234c94df044249c8ff3c1e2bebe3b": {
+        "id": "AS_Segment_a5a234c94df044249c8ff3c1e2bebe3b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onRowClick_d6c090e48f0148909b751d9a59b03dcd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onRowClickOfSegAppsList",
+            "display": "onRowClickOfSegAppsList",
+            "inputparams": [{
+                "name": "selectedSide"
+            }, {
+                "name": "context"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

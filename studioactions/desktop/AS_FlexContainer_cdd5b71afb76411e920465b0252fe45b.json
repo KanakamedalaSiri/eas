@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_cdd5b71afb76411e920465b0252fe45b": {
+        "id": "AS_FlexContainer_cdd5b71afb76411e920465b0252fe45b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": null,
+            "KUID": "fc1c89e2d4ed48f48f3507b8a13528be"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_i0aef7de5a6e464f88b81f5d5f2f289b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onRowClickOfSegAppsList\", \"Left\");\n",
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

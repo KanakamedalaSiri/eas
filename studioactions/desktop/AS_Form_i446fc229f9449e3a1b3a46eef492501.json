@@ -1,0 +1,24 @@
+{
+    "AS_Form_i446fc229f9449e3a1b3a46eef492501": {
+        "id": "AS_Form_i446fc229f9449e3a1b3a46eef492501",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStore",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ib0bf1b15011448d92886ec3b51d7031"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b1084b613f754edb92a3bc461bb46d8c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var storeModule = applicationManager.getStoreModule();\nthis.attachToModule(storeModule);\n\nvar config = applicationManager.getConfigManager();\nif(config.platformName === \"desktop\"){\n  this.view.flxHeader.height = \"88px\";\n     this.view.lblHeader.left = 2.1+\"%\";\n     this.view.lblHeader.centerX = undefined;\n     this.view.lblHeader.centerY = undefined;\n     this.view.lblHeader.height = \"22px\";\n     this.view.lblHeader.width = \"172px\";\n     this.view.lblHeader.top = \"46px\";\n     this.view.lblHeader.text = \"ENTERPRISE STORE\";\n           \n     this.view.imgLogout.top = \"46px\";\n     this.view.imgLogout.height = \"22px\";\n            this.view.imgLogout.right = 2.10+\"%\";\n            this.view.imgLogout.width = 1.40+\"%\";\n            this.view.imgLogout.centerY = undefined;\n  \n     this.view.flxAppsList.top = \"88px\";\n}\n            ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

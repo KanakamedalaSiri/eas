@@ -1,0 +1,199 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnDownloadLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "GET"
+            },
+            "btnDownloadRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "GET"
+            },
+            "btnLaunchLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OPEN"
+            },
+            "btnLaunchRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OPEN"
+            },
+            "imgAppIconLeft": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "default_app_icon.png"
+            },
+            "imgAppIconRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "default_app_icon.png"
+            },
+            "imgDownloadingLeft": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "download.png"
+            },
+            "imgDownloadingRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAppDescriptionLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Component description two liner.."
+            },
+            "lblAppDescriptionRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Component description two liner.."
+            },
+            "lblAppNameLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "App Viewer"
+            },
+            "lblAppNameRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "App Name"
+            },
+            "lblPlatformTabLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NATIVE"
+            },
+            "lblPlatformTabRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NATIVE"
+            },
+            "lblSeparatorLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "lblSeperatorRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "lblVersionLeft": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Version 1.0.0"
+            },
+            "lblVersionRight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Version"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "enablereordering": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAppsList",
+    "ide_onRowClick": "AS_Segment_a5a234c94df044249c8ff3c1e2bebe3b",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d0cc39ddee714dcb9cf0c941c233670f",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAppsList",
+    "pf": "frmStore",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "baf4835d7d764b319c793276df35b9de",
+    "rowcounter": 0,
+    "rowfocusskin": "sb2dbd0315bc4e71b03b5c967b6bf017",
+    "rowskin": "se5ade2921eb40f49b5e8a5d206746a1",
+    "rowtemplate": "flxAppsListTemplate",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "se65fac6e71349469e6a73460a7e76d6",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDownloadLeft": "btnDownloadLeft",
+        "btnDownloadRight": "btnDownloadRight",
+        "btnLaunchLeft": "btnLaunchLeft",
+        "btnLaunchRight": "btnLaunchRight",
+        "flxAppDetailsLeft": "flxAppDetailsLeft",
+        "flxAppDetailsRight": "flxAppDetailsRight",
+        "flxAppIconLeft": "flxAppIconLeft",
+        "flxAppIconRight": "flxAppIconRight",
+        "flxAppsListTemplate": "flxAppsListTemplate",
+        "flxOptionsLeft": "flxOptionsLeft",
+        "flxOptionsRight": "flxOptionsRight",
+        "flxOuterLeft": "flxOuterLeft",
+        "flxOuterRight": "flxOuterRight",
+        "flxPlatformTabLeft": "flxPlatformTabLeft",
+        "flxPlatformTabRight": "flxPlatformTabRight",
+        "imgAppIconLeft": "imgAppIconLeft",
+        "imgAppIconRight": "imgAppIconRight",
+        "imgDownloadingLeft": "imgDownloadingLeft",
+        "imgDownloadingRight": "imgDownloadingRight",
+        "lblAppDescriptionLeft": "lblAppDescriptionLeft",
+        "lblAppDescriptionRight": "lblAppDescriptionRight",
+        "lblAppNameLeft": "lblAppNameLeft",
+        "lblAppNameRight": "lblAppNameRight",
+        "lblPlatformTabLeft": "lblPlatformTabLeft",
+        "lblPlatformTabRight": "lblPlatformTabRight",
+        "lblSeparatorLeft": "lblSeparatorLeft",
+        "lblSeperatorRight": "lblSeperatorRight",
+        "lblVersionLeft": "lblVersionLeft",
+        "lblVersionRight": "lblVersionRight"
+    },
+    "zindex": 1
+}

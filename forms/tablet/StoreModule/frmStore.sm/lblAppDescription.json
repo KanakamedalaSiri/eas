@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        2
+    ],
+    "_skin_": "s7c3c4ad566d421cbcb96797de2f606f",
+    "_text_": "description",
+    "_top_": {
+        "type": "string",
+        "value": "1.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "89.60%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "lineSpacing": 2
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "lblAppDescription",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        },
+        "textStyle": {
+            "lineSpacing": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bd8802e521864ee98707fd8fefae10c0",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxAppDetailsScrollContainer",
+    "pf": "frmStore",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

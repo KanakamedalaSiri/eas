@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5.60%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4f5c00402d547f58959554c8a2d4d9f",
+    "_text_": "SUBMIT",
+    "_top_": {
+        "type": "string",
+        "value": "46.60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "41.10%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s4f5c00402d547f58959554c8a2d4d9f",
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_gf9158c4126f487b976fe77f6bc19d3d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aedbc83721054e618c0690653a7a2ddd",
+    "name": "kony.ui.Button",
+    "parent": "flxForgotPassword",
+    "pf": "frmForgotPassword",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

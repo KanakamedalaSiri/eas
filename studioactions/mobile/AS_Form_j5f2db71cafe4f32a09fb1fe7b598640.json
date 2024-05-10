@@ -1,0 +1,23 @@
+{
+    "AS_Form_j5f2db71cafe4f32a09fb1fe7b598640": {
+        "id": "AS_Form_j5f2db71cafe4f32a09fb1fe7b598640",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b47a9a93125649959cab819a9e1ff11a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_c72da2a2acb2485ca21fc7ab7a349146",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  var usernameTxt = document.getElementById(\"frmLogin_txtUsername\");\n  usernameTxt.style.outline = 'none';\n  var passwordTxt = document.getElementById(\"frmLogin_txtPassword\");\n  passwordTxt.style.outline = 'none';\n  var btnLogin = document.getElementById(\"frmLogin_btnLogin\");\n  btnLogin.style.outline = 'none';\n} catch(err){\n  voltmx.print(err);\n}\n",
+            "callbackType": null
+        }]
+    }
+}

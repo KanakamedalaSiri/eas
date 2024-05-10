@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_a69d8a60d81046f88dc057faedcaac27": {
+        "id": "AS_FlexContainer_a69d8a60d81046f88dc057faedcaac27",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateAppsListMobile",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e557a18fefb043408a69d4459b2d4c18"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j5770ec5fbcc494e9136031a8ce3def1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onRowClickOfSegAppsListMobile\");\n",
+            "parentId": null
+        }]
+    }
+}

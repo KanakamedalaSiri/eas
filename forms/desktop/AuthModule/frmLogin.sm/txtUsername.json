@@ -1,0 +1,152 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "50.20%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "6.40%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "USERNAME",
+    "_skin_": "s2a294d9bb424a10bd2f02a49c173667",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "38.20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "84%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "placeholderSkin": "s8b2f0ca9f5248cab43965d5433abfbc"
+    },
+    "disabledSkins": {},
+    "focusskin": "sb19dcae234e4e8b91d8907c97a8ce7d",
+    "id": "txtUsername",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "ee7d03575ce3489c88cc83e5e1d992cc",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxLogin",
+    "pf": "frmLogin",
+    "placeholderskin": "s8b2f0ca9f5248cab43965d5433abfbc",
+    "responsiveData": {
+        "b1": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "disabledSkins": {
+                "focusSkin": "sb19dcae234e4e8b91d8907c97a8ce7d"
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "padding": [
+                5,
+                0,
+                0,
+                0
+            ],
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        },
+        "b2": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "padding": [
+                5,
+                0,
+                0,
+                0
+            ],
+            "text": "",
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        },
+        "b3": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "padding": [
+                5,
+                0,
+                0,
+                0
+            ],
+            "top": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "316dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

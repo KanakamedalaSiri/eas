@@ -1,0 +1,25 @@
+{
+    "AS_Button_ie8ac2765c214a0bbf428121c6023455": {
+        "id": "AS_Button_ie8ac2765c214a0bbf428121c6023455",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": null,
+            "KUID": "fc1c89e2d4ed48f48f3507b8a13528be"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d871c837c02f4052905e8ae14d880fb9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onClickOfWebAppLaunch\", [context ,\"Left\"]);",
+            "callbackType": null
+        }]
+    }
+}

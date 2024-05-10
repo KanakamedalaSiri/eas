@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Error_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M60.9375,1.3636435e-15 C72.5,1.3636435e-15 80,7.5 80,19.0625 L80,60.9375 C80,72.5 72.5,80 60.9375,80 L19.0625,80 C7.5,80 0,72.5 0,60.9375 L0,19.0625 C0,7.5 7.5,1.3636435e-15 19.0625,1.3636435e-15 L60.9375,1.3636435e-15 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="003-Landing" transform="translate(-14.000000, -210.000000)">
+            <g id="apps" transform="translate(-6.000000, 99.000000)">
+                <g id="2" transform="translate(0.000000, 101.000000)">
+                    <g id="Error_icon" transform="translate(20.000000, 10.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask-Copy" fill="#DDDDDD" xlink:href="#path-1"></use>
+                        <path d="M75,55.6613206 L64.9670587,46.5396709 C63.4590605,45.1689487 61.140071,45.2236844 59.6993279,46.6657378 L49.5452693,52.8571519 L29.5242235,32.9036344 C28.010839,31.0963365 25.2388241,31.0785765 23.7027301,32.8641839 L5,54.5999426 L75,55.6613206 Z M53.3638137,32.0000582 C53.3638137,28.1334745 56.496997,25 60.3635808,25 C64.2303101,25 67.363639,28.1334745 67.363639,32.0000582 C67.363639,35.866642 64.2304557,38.9999709 60.3635808,38.9999709 C56.4971426,39.0001165 53.3638137,35.866642 53.3638137,32.0000582 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

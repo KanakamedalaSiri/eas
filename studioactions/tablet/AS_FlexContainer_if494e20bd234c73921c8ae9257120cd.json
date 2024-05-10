@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_if494e20bd234c73921c8ae9257120cd": {
+        "id": "AS_FlexContainer_if494e20bd234c73921c8ae9257120cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j2d7c74a7f35413ba0669378333bfa5c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jd0e0f6c2460419e8ed6d79aafd5e80a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtPassword.secureTextEntry == true){\n  this.view.txtPassword.secureTextEntry = false;\n} else{\n  this.view.txtPassword.secureTextEntry = true;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

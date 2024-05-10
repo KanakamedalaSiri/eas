@@ -1,0 +1,14 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "CommonUtilsManager/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {},
+    "ModuleName": "CommonUtilsManager",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "CommonUtilsManager/PresentationControllers/PresentationController",
+            "PresentationExtensions": []
+        }
+    }
+}

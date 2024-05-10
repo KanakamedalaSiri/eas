@@ -1,0 +1,26 @@
+{
+    "AS_Button_ge356e99c34e4fd4aafc96138aa3f7c3": {
+        "id": "AS_Button_ge356e99c34e4fd4aafc96138aa3f7c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateApps",
+            "type": "templates",
+            "platform": "",
+            "KUID": "d3e565caea1145818fdd55e00a115153"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e5e91ccffcb04812817219b1a195b2b5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onClickOfLaunchWebApp\",context,eventobject);",
+            "callbackType": null
+        }]
+    }
+}

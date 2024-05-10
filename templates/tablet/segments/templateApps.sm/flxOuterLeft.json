@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se06d27e34bc4c04a4400d2161ce1010",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxAppDetailsLeft",
+        "flxAppIconLeft",
+        "flxOptionsLeft",
+        "lblSeparatorLeft"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxOuterLeft",
+    "ide_onClick": "AS_FlexContainer_fccb52fee212433e97b448e83b1c575a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eed947258a77457e98c7e3dd19fc33e3",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxAppsListTemplate",
+    "pf": "templateApps",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

@@ -1,0 +1,40 @@
+{
+    "AS_Form_g89584b914924268811cfd0d9010a0f5": {
+        "id": "AS_Form_g89584b914924268811cfd0d9010a0f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHelpScreen",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f4e785b8e78b40ad9c8b74f19fb7c885"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bd3c86fb384948f9a669630eb37ca725",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var storeModule = applicationManager.getStoreModule();\nthis.attachToModule(storeModule);\nthis.view.flxLoader.isVisible = false;\nthis.view.lblLoaderText.isVisible = false;\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___b918b4989ec0470fae894cf8cae866fb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showLogout",
+            "display": "showLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET__c6367dcee9944699b989fc7fc9be71db",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "refreshAppFlag = false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

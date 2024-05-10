@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_defa3357e3aa46998a887863a5183049": {
+        "id": "AS_FlexContainer_defa3357e3aa46998a887863a5183049",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ea9ecf9e618e4034b9b8d81e62a886ad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "applicationManager.removeItem(\"USER_CRED\");\nPREV_FORM =\"\";",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_d92a22aaf3114fdc8a86d187c1bfab27",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfLogout",
+            "display": "onClickOfLogout",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

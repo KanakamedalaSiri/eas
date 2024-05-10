@@ -1,0 +1,30 @@
+{
+    "AS_TextField_e33591f49201426487186649bd5bf352": {
+        "id": "AS_TextField_e33591f49201426487186649bd5bf352",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmForgotPassword",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h82540a3451e470389c018f436d3d3d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f27908bddb7646c4aa6c49ba30979012",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfSubmitBtn",
+            "display": "onClickOfSubmitBtn",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

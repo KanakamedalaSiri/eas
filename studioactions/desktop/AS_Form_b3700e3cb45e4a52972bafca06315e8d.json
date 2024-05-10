@@ -1,0 +1,24 @@
+{
+    "AS_Form_b3700e3cb45e4a52972bafca06315e8d": {
+        "id": "AS_Form_b3700e3cb45e4a52972bafca06315e8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStore",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ib0bf1b15011448d92886ec3b51d7031"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__de68547aaeb54e0d92263a435c941d89",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print(\"on device back\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

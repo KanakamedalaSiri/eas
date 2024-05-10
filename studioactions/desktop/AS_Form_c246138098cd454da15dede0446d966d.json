@@ -1,0 +1,24 @@
+{
+    "AS_Form_c246138098cd454da15dede0446d966d": {
+        "id": "AS_Form_c246138098cd454da15dede0446d966d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAppDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a25f861dee7d45edb26a50cdfd710ad2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a229d6f13b0647a1842f9246f7279186",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var storeModule = applicationManager.getStoreModule();\nthis.attachToModule(storeModule);\n if(voltmx.os.deviceInfo().screenHeight < 550){\n   this.view.imgAppIcon.width = \"100dp\";\n   this.view.imgAppIcon.height = \"100dp\";\n }\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

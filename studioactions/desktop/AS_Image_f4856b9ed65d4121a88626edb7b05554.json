@@ -1,0 +1,40 @@
+{
+    "AS_Image_f4856b9ed65d4121a88626edb7b05554": {
+        "id": "AS_Image_f4856b9ed65d4121a88626edb7b05554",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAppDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a25f861dee7d45edb26a50cdfd710ad2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e4696c9c00d448edae2b32fe625e5b00",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "PREV_FORM = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___e56e882852d441f1897bcb5470475544",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfLogout",
+            "display": "onClickOfLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

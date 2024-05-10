@@ -1,0 +1,110 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6.20%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "EMAIL",
+    "_skin_": "sb19dcae234e4e8b91d8907c97a8ce7d",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "84.30%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "41.90%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "placeholderSkin": "s8b2f0ca9f5248cab43965d5433abfbc"
+    },
+    "disabledSkins": {},
+    "focusskin": "sb19dcae234e4e8b91d8907c97a8ce7d",
+    "id": "txtBoxEmail",
+    "ide_onDone": "AS_TextField_d43cc8183d3b450184185605db7d9c83",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "e00ceceb5c7d4f56ac31912b5843acce",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxForgotPassword",
+    "pf": "frmForgotPassword",
+    "placeholderskin": "s8b2f0ca9f5248cab43965d5433abfbc",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "padding": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        },
+        "b2": {
+            "centerY": {
+                "type": "string",
+                "value": "38%"
+            },
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "padding": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "text": "",
+            "width": {
+                "type": "string",
+                "value": "316px"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

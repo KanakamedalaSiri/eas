@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_a493bb8c04334ab8ae3dd73f8a52f8e3": {
+        "id": "AS_AppEvents_a493bb8c04334ab8ae3dd73f8a52f8e3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6871c2ba92743c7a7c3cf60fb72eb2a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print(\"post app init\");\nvoltmx.application.setApplicationBehaviors({\"hideDefaultLoadingIndicator\":true});\nsetPushCallbacks();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

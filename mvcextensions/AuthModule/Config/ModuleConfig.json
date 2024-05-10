@@ -1,0 +1,93 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessControllerClass": "AuthModule/BusinessControllers/BusinessController",
+        "CommandHandler": []
+    },
+    "Forms": {
+        "desktop": {
+            "frmLogin": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmLoginController",
+                "FormName": "AuthModule/frmLogin",
+                "friendlyName": "frmLogin"
+            },
+            "frmForgotPassword": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmForgotPasswordController",
+                "FormName": "AuthModule/frmForgotPassword",
+                "friendlyName": "frmForgotPassword"
+            },
+            "frmSplashScreen": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmSplashScreenController",
+                "FormName": "AuthModule/frmSplashScreen"
+            }
+        },
+        "mobile": {
+            "frmForgotPassword": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmForgotPasswordController",
+                "FormName": "AuthModule/frmForgotPassword",
+                "friendlyName": "frmForgotPassword"
+            },
+            "frmLogin": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmLoginController",
+                "FormName": "AuthModule/frmLogin",
+                "friendlyName": "frmLogin"
+            },
+            "frmSplashScreen": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmSplashScreenController",
+                "FormName": "AuthModule/frmSplashScreen"
+            }
+        },
+        "tablet": {
+            "frmForgotPassword": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmForgotPasswordController",
+                "FormName": "AuthModule/frmForgotPassword",
+                "friendlyName": "frmForgotPassword"
+            },
+            "frmLogin": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmLoginController",
+                "FormName": "AuthModule/frmLogin",
+                "friendlyName": "frmLogin"
+            },
+            "frmSplashScreen": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "AuthModule/frmSplashScreenController",
+                "FormName": "AuthModule/frmSplashScreen"
+            }
+        }
+    },
+    "ModuleName": "AuthModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "AuthModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": []
+        },
+        "Desktop": {
+            "PresentationControllerClass": "AuthModule/PresentationControllers/PresentationController_Desktop",
+            "PresentationExtensions": []
+        },
+        "Mobile": {
+            "PresentationControllerClass": "AuthModule/PresentationControllers/PresentationController_Mobile",
+            "PresentationExtensions": []
+        },
+        "Tablet": {
+            "PresentationControllerClass": "AuthModule/PresentationControllers/PresentationController_Tablet",
+            "PresentationExtensions": []
+        }
+    }
+}

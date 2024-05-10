@@ -1,0 +1,26 @@
+{
+    "AS_Button_g82794d56f3447d19c6ea1b69317be2d": {
+        "id": "AS_Button_g82794d56f3447d19c6ea1b69317be2d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateAppsListMobile",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e557a18fefb043408a69d4459b2d4c18"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_db172ec1afab48f799773c2570e4b2c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.executeOnParent(\"onClickOfWebAppLaunch\",context);",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_bbf5fcb722ff46d29224e5e5b59432ff": {
+        "id": "AS_FlexContainer_bbf5fcb722ff46d29224e5e5b59432ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStore",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8ce9a91358e4f72a7039b33ed9ae361"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jb0420998d4a4784bf820e9b683a7774",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxHelp.isVisible = true;\nthis.view.flxBack.isVisible = false;\nthis.view.flxHelpBox.isVisible = false;\nthis.view.segAppsList.isVisible = true;\nthis.view.lblHeader.text = \"ENTERPRISE APP STORE\";",
+            "parentId": null
+        }]
+    }
+}

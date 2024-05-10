@@ -1,0 +1,21 @@
+{
+    "AS_Button_f8589c6ffd264b7bada3fdaefb767d82": {
+        "id": "AS_Button_f8589c6ffd264b7bada3fdaefb767d82",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a16c8d0a8ed542b4bee50d93c24802cd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfCross",
+            "display": "onClickOfCross",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

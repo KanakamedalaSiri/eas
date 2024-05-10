@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_f6e8a30ae5824c8397c37784ef0573dc": {
+        "id": "AS_FlexContainer_f6e8a30ae5824c8397c37784ef0573dc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_g502f2ada80c4c3abb99c7e0dd9a35bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "PREV_FORM =\"\";",
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onClick_i2e13afa1af24feeb9060f4399c0efe5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickOfLogout",
+            "display": "onClickOfLogout",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

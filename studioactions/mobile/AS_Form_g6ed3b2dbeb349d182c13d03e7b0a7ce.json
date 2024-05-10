@@ -1,0 +1,23 @@
+{
+    "AS_Form_g6ed3b2dbeb349d182c13d03e7b0a7ce": {
+        "id": "AS_Form_g6ed3b2dbeb349d182c13d03e7b0a7ce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmForgotPassword",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h82540a3451e470389c018f436d3d3d9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_da95b0a3463243a4acf77722ef0cc70a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  var txtBoxEmail = document.getElementById(\"frmForgotPassword_txtBoxEmail\");\n  txtBoxEmail.style.outline = 'none';\n} catch(err){\n  voltmx.print(err);\n}\n",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "AS_TextField_e1880054da284459a23a991d27528cf1": {
+        "id": "AS_TextField_e1880054da284459a23a991d27528cf1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j2d7c74a7f35413ba0669378333bfa5c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a536f71a5b424ff495603ee0c7d948d9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setFocusSkins",
+            "display": "setFocusSkins",
+            "inputparams": [{
+                "name": "widget",
+                "value": " eventobject"
+            }, {
+                "name": "focusSkin",
+                "value": "'sknTxtBxUsernameFocus'"
+            }, {
+                "name": "placeHolderSkin",
+                "value": "'sknTxtBxPlaceHolderNative'"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

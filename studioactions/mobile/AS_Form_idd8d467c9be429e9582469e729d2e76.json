@@ -1,0 +1,23 @@
+{
+    "AS_Form_idd8d467c9be429e9582469e729d2e76": {
+        "id": "AS_Form_idd8d467c9be429e9582469e729d2e76",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStore",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8ce9a91358e4f72a7039b33ed9ae361"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_i11f740b7bab43258aece1abf699302f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var storeModule = applicationManager.getStoreModule();\nthis.attachToModule(storeModule);\nvar config = applicationManager.getConfigManager();\nif (config.platformName == \"iphone\") {\n  this.view.flxHelp.isVisible = true;\n  if(applicationManager.getItem(\"FIRST_LAUNCH\") == null){  \n    applicationManager.setItem(\"FIRST_LAUNCH\", false);\n    this.view.imgHelper.isVisible = true;\n    function timerFunc()\n    {\n      if(voltmx.application.getCurrentForm().id == \"frmStore\"){\n        voltmx.application.getCurrentForm().imgHelper.isVisible = false;\n      }\n    }\n    voltmx.timer.schedule(\"helpIndicatorTimer\",timerFunc, config.helperDuration, false);\n  }\n  else{\n    this.view.imgHelper.isVisible = false;\n  }\n}\n\nelse{\n  this.view.imgHelper.isVisible = false;\n  this.view.flxHelp.isVisible = false;\n}",
+            "callbackType": null
+        }]
+    }
+}
